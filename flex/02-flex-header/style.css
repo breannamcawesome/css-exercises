@@ -23,3 +23,15 @@ a {
   /* this removes the line under the links */
   text-decoration: none;
 }
+
+.left-links {
+  display: flex;
+  align-content: flex-start;
+  justify-content: space-evenly;
+}
+
+.right-links {
+  display: flex;
+  align-content: flex-end;
+  justify-content: space-evenly;
+}
