@@ -29,6 +29,17 @@ body {
   font-style: italic;
 }
 
+.items {
+  display: flex;
+  justify-content: left;
+
+}
+
+.button {
+  display: flex;
+  justify-content: right;
+}
+
 button {
   border: none;
   border-radius: 8px;
